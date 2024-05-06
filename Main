@@ -1,0 +1,22 @@
+public class Polimorfismo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+       Animal animal= new Gato();
+       Animal animalb = new Perro(); 
+       
+       animal.hacerSonidos();
+       animalb.hacerSonidos(); 
+       
+       
+        OperacionesDeSuma Obj = new OperacionesDeSuma();
+        Obj.suma(10,10);
+        Obj.suma(1/2,2);
+        Obj.suma(2.5,3.7);
+ 
+    }
+}    
+    
