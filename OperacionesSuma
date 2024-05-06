@@ -1,0 +1,27 @@
+package polimorfismo;
+
+/**
+ *
+ * @author Usuario
+ */
+public class OperacionesDeSuma {
+    void suma(int num1, int num2) { 
+        int resultado; 
+        resultado = num1 + num2;
+        System.out.println("Resultado: " + resultado);
+    }
+    
+    void  suma(float num1, float num2) {
+       float resultado; 
+        resultado = num1 + num2;
+        System.out.println("Resultado: " + resultado);
+    }
+    
+    void suma(double num1, double num2) {
+        double resultado; 
+        resultado = num1 + num2;
+        System.out.println("Resultado: " + resultado);
+        
+    }
+    
+}
