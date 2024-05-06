@@ -1,0 +1,22 @@
+  package polimorfismo;
+
+  /**
+   *
+   * @author Usuario
+   */
+      public class Animal {
+          public void hacerSonidos () {
+              System.out.println("Grr...");
+          }
+      }
+
+      class Gato extends Animal {
+        public void hacerSonidos() {
+          System.out.println("Meow");
+        }
+      }
+      class Perro extends Animal {
+        public void hacerSonidos() {
+          System.out.println("Woof");
+        }
+      }
